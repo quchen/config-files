@@ -1,0 +1,9 @@
+"*":
+  core:
+    autoHideMenuBar: true
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "a4b6aef9-724e-a1a7-3f34-8cd1b9311fcb"
+  welcome:
+    showOnStartup: false

@@ -7,6 +7,11 @@ which atom || (
     sudo dpkg -i atom-amd64.deb
 )
 
+cd /tmp
+wget https://github.com/i-tu/Hasklig/releases/download/0.9/Hasklig-0.9.zip
+unzip Hasklig-0.9.zip
+mv Hasklig-*.otf ~/.fonts
+
 apm install \
     Sublime-Style-Column-Selection@1.5.1 \
     autocomplete-haskell@0.6.2 \
@@ -29,7 +34,6 @@ apm install \
     todo-show@1.3.0 \
     vim-mode@0.64.0 \
     wordcount@2.6.0
-
 
 #   color-picker@2.1.1 \
 #   hex@0.6.2 \

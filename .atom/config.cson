@@ -1,13 +1,16 @@
 "*":
-  core:
-    autoHideMenuBar: true
   autosave:
     enabled: true
+  core:
+    autoHideMenuBar: true
   editor:
     fontFamily: "Hasklig"
+    fontSize: 29
     invisibles: {}
   "exception-reporting":
     userId: "a4b6aef9-724e-a1a7-3f34-8cd1b9311fcb"
+  "keyboard-localization":
+    useKeyboardLayout: "de_DE-neo"
   minimap:
     plugins:
       codeglance: true

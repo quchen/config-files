@@ -1,0 +1,6 @@
+'atom-workspace atom-text-editor':
+  'alt-left':  'pane:show-previous-item'
+  'alt-right': 'pane:show-next-item'
+'atom-text-editor.vim-mode.normal-mode':
+  ': w': 'core:save'
+  ': q': 'core:close'

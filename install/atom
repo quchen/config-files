@@ -23,6 +23,7 @@ apm install \
     ide-haskell-cabal@1.0.0 \
     ide-haskell-hasktags@0.0.1 \
     keybinding-cheatsheet@0.1.0 \
+    keyboard-localization \
     language-haskell@1.5.2 \
     minimap@4.19.0 \
     minimap-codeglance@0.4.5 \

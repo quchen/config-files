@@ -2,3 +2,12 @@
 # in all projects.  For more information about stack's configuration, see
 # http://docs.haskellstack.org/en/stable/yaml_configuration.html
 #
+nix:
+  enable: true
+  packages: [ emacs
+            , less
+            , ncurses # for terminfo library
+            , stack
+            , zlib
+            , zsh
+            ]

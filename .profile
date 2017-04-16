@@ -30,5 +30,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export EDITOR=nvim
+export EDITOR=vi # which is a script that runs spacemacs in the terminal :-D
 export PAGER=less
